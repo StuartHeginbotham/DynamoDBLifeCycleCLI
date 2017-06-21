@@ -1,0 +1,14 @@
+{
+    "TableDescription": {
+        "TableArn": "arn:aws:dynamodb:eu-west-1:???????????????:table/Music", 
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0, 
+            "WriteCapacityUnits": 1, 
+            "ReadCapacityUnits": 1
+        }, 
+        "TableSizeBytes": 0, 
+        "TableName": "Music", 
+        "TableStatus": "DELETING", 
+        "ItemCount": 0
+    }
+}

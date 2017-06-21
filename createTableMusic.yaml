@@ -1,0 +1,18 @@
+Resources:
+  table:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: Music
+      ProvisionedThroughput:
+        ReadCapacityUnits: 1
+        WriteCapacityUnits: 1
+      KeySchema:
+      - AttributeName: Artist
+        KeyType: HASH
+      - AttributeName: SongTitle
+        KeyType: RANGE
+      AttributeDefinitions:
+      - AttributeName: Artist
+        AttributeType: S
+      - AttributeName: SongTitle
+        AttributeType: S

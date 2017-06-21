@@ -1,0 +1,3 @@
+aws dynamodb query \
+    --table-name Music \
+    --key-conditions '{"Artist": {"AttributeValueList": [{"S": "No One You Know"}],"ComparisonOperator": "EQ"},"SongTitle": {"AttributeValueList": [{"S": "Call Me Today"}],"ComparisonOperator": "EQ"} }'
